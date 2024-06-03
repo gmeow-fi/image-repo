@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html translate="no">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Gmeow</title>
+  <meta name="description" content="Gmeow is the face of cat coins. Powering the core liquidity space and fair launch on Zircuit L2." />
+
+  <meta property="og:title" content="Gmeow" />
+  <meta property="og:description" content="Gmeow is the face of cat coins. Powering the core liquidity space and fair launch on Zircuit L2." />
+  <meta property="og:image" content="/banner.png" />
+  <meta property="og:url" content="https://gmeow.fi" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gmeow">
+  <meta name="twitter:description" content="Gmeow is the face of cat coins. Powering the core liquidity space and fair launch on Zircuit L2.">
+  <meta name="twitter:creator" content="@gmeowfi">
+  <meta name="twitter:image" content="/banner.png" />
+
+  <!--
+        %PUBLIC_URL% will be replaced with the URL of the `public` folder during build.
+        Only files inside the `public` folder can be referenced from the HTML.
+      -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="/favicon.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#5CFE9D" />
+  <meta http-equiv="Content-Security-Policy"
+    content="script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com 'unsafe-inline'" />
+
+  <!--
+      manifest.json provides metadata used when the app is installed as a PWA.
+      See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="preconnect" href="https://www.google-analytics.com/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      font-family: 'Inter', sans-serif;
+      box-sizing: border-box;
+    }
+
+    /**
+          Explicitly load Inter var from public/ so it does not block LCP's critical path.
+        */
+    @supports (font-variation-settings: normal) {
+      * {
+        font-family: 'Righteous', sans-serif;
+      }
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      user-select: none;
+    }
+
+    html {
+      font-size: 16px;
+      font-variant: none;
+      font-smooth: always;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    #background-radial-gradient {
+      background: #FFF9E1 !important;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      width: 200vw;
+      height: 200vh;
+      transform: translate(-50vw, -100vh);
+      z-index: -1;
+    }
+
+    html,
+    body,
+    #root {
+      min-height: 100%;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #FFF9E1;
+      }
+    }
+
+    @media (prefers-color-scheme: light) {
+      html {
+        background-color: #FFF9E1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div id="root">
+    <!-- Triggers the font to load immediately and then is replaced by the app -->
+    <div>&emsp;</div>
+  </div>
+
+  <div id="background-radial-gradient"></div>
+</body>
+
+</html>

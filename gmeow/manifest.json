@@ -1,0 +1,30 @@
+{
+  "background_color": "#fff",
+  "display": "standalone",
+  "homepage_url": "https://gmeow.fi",
+  "providedBy": {
+    "name": "Gmeow",
+    "url": "https://gmeow.fi"
+  },
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "name": "Gmeow",
+  "description": "Gmeow is the face of cat coins. Powering the core liquidity space and fair launch on Zircuit L2.",
+  "iconPath": "/favicon.png",
+  "short_name": "Gmeow",
+  "start_url": ".",
+  "theme_color": "#FC72FF"
+}
